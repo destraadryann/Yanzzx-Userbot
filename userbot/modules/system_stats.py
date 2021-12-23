@@ -321,7 +321,7 @@ async def redis(alive):
         f"┃✧ **Bot Ver  :** {BOT_VER} \n"
         f"┃✧ **Modules  :** {len(modules)} Modules \n"
         f"┃✧ **GitHub   :** [UserBot](https://github.com/destraadryann/Yanzzx-userbot) \n"
-        f"┃✧ **Owner    :** [Skyzu](https://t.me/yann4kalem) \n"
+        f"┃✧ **Owner    :** [𝐘𝐚𝐧𝐳𝐳𝐱](https://t.me/yann4kalem) \n"
         f"┃✧ **support  :** [groups](https://t.me/yanzzxsupport) \n"
         f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
     )
