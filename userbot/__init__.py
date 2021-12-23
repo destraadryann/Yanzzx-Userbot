@@ -763,7 +763,7 @@ with bot:
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @skyzusupport")
+                    f"© @yanzzxsupport")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -846,7 +846,7 @@ with bot:
         )
         async def killdabot(event):
             if event.query.user_id == uid:
-                text = f"**Restaring skyzu-userbot**..."
+                text = f"**Restaring Yanzzx-userbot**..."
                 await event.edit(
                     text,
                     file=roselogo,
@@ -943,7 +943,7 @@ with bot:
                     link_preview=True,
                     buttons=[
                         [
-                            Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/yanzzxkosupport"),
+                            Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/yanzzxsupport"),
                             Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/ProjectSkyzu"),
                         ],
                         [custom.Button.inline(
