@@ -21,7 +21,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = (
     str(UPSTREAM_REPO_URL)
     if UPSTREAM_REPO_URL
-    else "https://github.com/destraadryann/Yanzzx-Userbot"
+    else "https://github.com/destraadryann/Yanzzx-userbot"
 )
 # ============================================
 
@@ -63,7 +63,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """For .shutdown command, shut the bot down."""
-    await event.edit("**Mematikan Yanzzx-Userbot....**")
+    await event.edit("**Mematikan Yanzzx-userbot....**")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -75,7 +75,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("**Restarting Yanzzx-Userbot...**")
+    await event.edit("**Restarting Yanzzx-userbot...**")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
