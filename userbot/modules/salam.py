@@ -49,7 +49,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^B(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BHAHAHAHAHAHAHA**")
+    await typew.edit("**BACOTT NGENTOT DOYAN VCS AJA SOK SOK AN DENGAN AKU GOBLOK**")
 
 
 @register(outgoing=True, pattern="^M(?: |$)(.*)")
@@ -81,7 +81,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^V(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MACAM BAGUS AE LU BEGITU JAMET!!**")
+    await typew.edit("**MACAM BAGUS AE MUKA LU BEGITU JAMET!!**")
 
 
 @register(outgoing=True, pattern="^J(?: |$)(.*)")
@@ -99,7 +99,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^X(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GANTENG LU BEGITU???**")
+    await typew.edit("**NGERASA KEREN LU BEGITU???**")
 
 
 @register(outgoing=True, pattern="^Z(?: |$)(.*)")
@@ -119,13 +119,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^O(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MAIN BOT MULU LU GOBLOK, KESANNYA NORAK TOLOL!!**")
+    await typew.edit("**MAIN BOT MULU LU GOBLOK, KESANNYA NORAK BANGET TOLOL!!**")
 
 
 @register(outgoing=True, pattern="^G(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GA KEREN LU BEGITU NGENTOT!**")
+    await typew.edit("**GA KEREN LU BEGITU GOBLOK!**")
 
 
 CMD_HELP.update(
