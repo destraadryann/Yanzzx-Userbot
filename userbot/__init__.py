@@ -362,7 +362,7 @@ with bot:
 async def check_alive():
     await bot.send_message(
         BOTLOG_CHATID,
-        "**Userbot Has Been Deployed⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `Yanzzx-Userbot`\n❃ **BotVer :** `5.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @yanzzxsupport\n━━━━━━━━━━━━━━━")
+        "**Userbot Has Been Deployed⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭`\n❃ **BotVer :** `5.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @yanzzxsupport\n━━━━━━━━━━━━━━━")
     return
 
 
@@ -751,7 +751,7 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk 𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk 𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
@@ -882,14 +882,14 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari **⚡𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
+                    "Bantuan Dari **⚡𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚡**",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True,
                 )
             else:
-                result = builder.article(" **⚡𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
-                                         text="""°𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐒𝐄𝐑𝐁𝐎𝐓°""",
+                result = builder.article(" **⚡𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚡**",
+                                         text="""°𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭°""",
                                          buttons=[[custom.Button.url("ʏᴀɴᴢᴢx​",
                                                                      "https://github.com/destraadryann/Yanzzx-userbot"),
                                                    custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
@@ -936,7 +936,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/yanzzxsupport"),
-                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/ProjectSkyzu"),
+                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/yanzzxaja"),
                         ],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
