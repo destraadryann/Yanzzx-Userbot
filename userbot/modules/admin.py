@@ -227,7 +227,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Melakukan Banned!`")
+    await bon.edit("`Membanned Jamed!`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
@@ -455,13 +455,13 @@ async def ungmoot(un_gmute):
         return
 
     # If pass, inform and start ungmuting
-    await un_gmute.edit("```Membuka Global Mute Pengguna...```")
+    await un_gmute.edit("```Membuka Global Mute Si Jamet...```")
 
     if ungmute(user.id) is False:
         await un_gmute.edit("`Kesalahan! Pengguna Sedang Tidak Di Gmute.`")
     else:
         # Inform about success
-        await un_gmute.edit("```Berhasil! Pengguna Sudah Tidak Lagi Dibisukan```")
+        await un_gmute.edit("```Berhasil! Jamet Sudah Tidak Lagi Dibisukan```")
         await sleep(3)
         await un_gmute.delete()
 
@@ -496,14 +496,14 @@ async def gspider(gspdr):
         return
 
     # If pass, inform and start gmuting
-    await gspdr.edit("`Berhasil Membisukan Pengguna!`")
+    await gspdr.edit("`Berhasil Membisukan Jamet!`")
     if gmute(user.id) is False:
-        await gspdr.edit("`Kesalahan! Pengguna Sudah Dibisukan.`")
+        await gspdr.edit("`Kesalahan! Jamet Sudah Dibisukan.`")
     else:
         if reason:
             await gspdr.edit(f"**Dibisukan Secara Global!**\n**Alasan:** `{reason}`")
         else:
-            await gspdr.edit("`Berhasil Membisukan Pengguna Secara Global!`")
+            await gspdr.edit("`Berhasil Membisukan Jamet Secara Global!`")
 
         if BOTLOG:
             await gspdr.client.send_message(
