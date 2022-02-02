@@ -41,7 +41,9 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^R(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KUTU KUTU APA YG HIDUPNYA BUKAN DI KEPALA?SEKONTOL LAH ANJING HAHAHAHA!!**")
+    await typew.edit(
+        "**KUTU KUTU APA YG HIDUPNYA BUKAN DI KEPALA?SEKONTOL LAH ANJING HAHAHAHA!!**"
+    )
 
 
 @register(outgoing=True, pattern="^T(?: |$)(.*)")
@@ -65,7 +67,9 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^Q(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BACOTAN LU GAK BIKIN GUA GETER TOLOL MAKANYA KERAS GOBLOK HAHAHAHA!!**")
+    await typew.edit(
+        "**BACOTAN LU GAK BIKIN GUA GETER TOLOL MAKANYA KERAS GOBLOK HAHAHAHA!!**"
+    )
 
 
 CMD_HELP.update(

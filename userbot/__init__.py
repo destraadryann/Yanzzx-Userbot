@@ -890,19 +890,26 @@ with bot:
                     link_preview=True,
                 )
             else:
-                result = builder.article(" **⚡𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚡**",
-                                         text="""°𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭°""",
-                                         buttons=[[custom.Button.url("ʏᴀɴᴢᴢx​",
-                                                                     "https://github.com/destraadryann/Yanzzx-userbot"),
-                                                   custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
-                                                                     "t.me/ProjectSkyzu"),
-                                                   ],
-                                                  [custom.Button.url("ʟɪᴄᴇɴsᴇ​",
-                                                                     "https://github.com/destraadryann/Yanzzx-userbot/LICENSE",
-                                                                     )],
-                                                  ],
-                                         link_preview=False,
-                                         )
+                result = builder.article(
+                    " **⚡𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚡**",
+                    text="""°𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭°""",
+                    buttons=[
+                        [
+                            custom.Button.url(
+                                "ʏᴀɴᴢᴢx​",
+                                "https://github.com/destraadryann/Yanzzx-userbot"),
+                            custom.Button.url(
+                                "ᴄʜᴀɴɴᴇʟ​",
+                                "t.me/ProjectSkyzu"),
+                        ],
+                        [
+                            custom.Button.url(
+                                "ʟɪᴄᴇɴsᴇ​",
+                                "https://github.com/destraadryann/Yanzzx-userbot/LICENSE",
+                            )],
+                    ],
+                    link_preview=False,
+                )
             await event.answer([result] if result else None)
 
         @ tgbot.on(
