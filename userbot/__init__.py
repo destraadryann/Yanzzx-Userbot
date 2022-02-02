@@ -111,7 +111,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL", "https://github.com/destraadryann/Yanzzx-userbot"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Skyzuu-Userbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Yanzzx-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -487,7 +487,7 @@ with bot:
                     f"➠ **Atau** Kalian Bisa Klik /notes Dibawah Jika Ada\n",
                     buttons=[
                         [Button.url("【﻿Ｃｈａｎｎｅｌ】",
-                                    "https://t.me/ProjectSkyzu")],
+                                    "https://t.me/ProjectYanzzx")],
                     ],
                 )
 
@@ -576,7 +576,7 @@ with bot:
                     ],
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 5.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Yanzzx-userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 5.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Yanzzx-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @ tgbot.on(
@@ -863,7 +863,7 @@ with bot:
                     file=roselogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url("ᴄʜᴀɴɴᴇʟ", "t.me/ProjectSkyzu")],
+                        [Button.url("ᴄʜᴀɴɴᴇʟ", "t.me/ProjectYanzzx")],
                     ],
                 )
 
@@ -900,7 +900,7 @@ with bot:
                                 "https://github.com/destraadryann/Yanzzx-userbot"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​",
-                                "t.me/ProjectSkyzu"),
+                                "t.me/ProjectYanzzx"),
                         ],
                         [
                             custom.Button.url(
@@ -945,7 +945,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/yanzzxsupport"),
-                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/yanzzxaja"),
+                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/ProjectYanzzx"),
                         ],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
