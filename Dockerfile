@@ -3,7 +3,7 @@ FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By Yanzzx-Userbot ━━━━━
 
-RUN git clone -b Skyzuu-Userbot https://github.com/destraadryann/Yanzzx-userbot /root/userbot
+RUN git clone -b Yanzzx-Userbot https://github.com/destraadryann/Yanzzx-userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
