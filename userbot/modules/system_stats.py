@@ -235,7 +235,7 @@ async def amireallyalive(alive):
         f"𝚈𝚊𝚗𝚣𝚣𝚡 𝙰𝚕𝚒𝚟𝚎\n\n"
         f"\n__**{YANZZX_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"➥ **Name** : `{DEFAULTUSER}` \n"
+        f"➥ **Name**     : `{DEFAULTUSER}` \n"
         f"➥ **Username** : @{user.username} \n"
         f"➥ **Telethon** : `{version.__version__}` \n"
         f"➥ **Python**   : `{python_version()}` \n"
