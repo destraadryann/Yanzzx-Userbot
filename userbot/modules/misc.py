@@ -117,14 +117,14 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        "**𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦**\n"
-        "𝗥𝗲𝗽𝗼 🇮🇩\n"
-        "╰⎆ [𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​](https://github.com/destraadryann/Yanzzx-userbot)\n"
-        "❏ **Oᴡɴᴇʀ​** ⎆ [𝐘𝐚𝐧𝐳𝐳𝐱](t.me/yann4kalem)\n"
-        "❏ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/yanzzxsupport)\n"
+        "┏━━━━━━━━━━━━━━━━━━━━━━━\n"
+        "☾ **ʀᴇᴘᴏ ᴜʙᴏᴛ :** [ɢɪᴛʜᴜʙ](https://github.com/destraadryann/Yanzzx-userbot)\n"
+        "☾ **ᴏᴡɴᴇʀ ʙᴏᴛ :** [𝐘𝐚𝐧𝐳𝐳𝐱](t.me/yann4kalem)\n"
+        "┣━━━━━━☾𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭☽━━━━━━━\n"
+        "☾ **ꜱᴜᴘᴘᴏʀᴛ   :** [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/yanzzxsupport)\n"
+        "☾ **ᴄʜᴀɴɴᴇʟ   :** [ᴄʜᴀɴɴᴇʟ](https://t.me/ProjectYanzzx)\n"
+        "┗━━━━━━━━━━━━━━━━━━━━━━━\n"
     )
-
-
 @register(outgoing=True, pattern="^.raw$")
 async def raw(event):
     the_real_message = None
