@@ -336,30 +336,6 @@ except Exception as e:
     sys.exit()
 
 
-async def checking():
-    gocheck = pybase64.b64decode("QHlhbnp6eHN1cHBvcnQ==")
-    checker = pybase64.b64decode("QFByb2plY3R5YW56eng==")
-    Input_gocheck = gocheck.decode('utf-8')
-    Input_checker = checker.decode('utf-8')
-    try:
-        await bot(GetSec(f"{Input_gocheck}"))
-    except BaseException:
-        pass
-    try:
-        await bot(GetSec(f"{Input_checker}"))
-    except BaseException:
-        pass
-
-with bot:
-    try:
-        bot.loop.run_until_complete(checking())
-    except BaseException:
-        LOGS.info(
-            "Join Support Group @yanzzxsupport and Channel @Projectyanzzx to see the updates of ubot"
-            "Don't Leave")
-        quit(1)
-
-
 async def check_botlog_chatid():
     if not BOTLOG_CHATID and LOGSPAMMER:
         LOGS.info(
