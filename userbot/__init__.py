@@ -354,7 +354,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @yanzzxsupport and Channel @ProjectYanzzx to see the updates of Userbot"
+            "Join Support Group @yanzzxsupport and Channel @Projectyanzzx to see the updates of Userbot"
             "Don't Leave")
         quit(1)
 
