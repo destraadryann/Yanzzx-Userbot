@@ -398,7 +398,7 @@ with bot:
 async def check_alive():
     await bot.send_message(
         BOTLOG_CHATID,
-        "**𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 Berhasil Diaktifkan⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭`\n❃ **BotVer :** `7.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @yanzzxsupport\n━━━━━━━━━━━━━━━")
+        "**𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 Berhasil Diaktifkan⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭`\n❃ **BotVer :** `7.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @Yanzzxsupport\n━━━━━━━━━━━━━━━")
     return
 
 
@@ -484,7 +484,7 @@ with bot:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
                     results = await event.client.inline_query(
-                        tgbotusername, "@yanzzxsupport"
+                        tgbotusername, "@Yanzzxsupport"
                     )
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
@@ -521,7 +521,7 @@ with bot:
                     f"➠ **Atau** Kalian Bisa Klik /notes Dibawah Jika Ada\n",
                     buttons=[
                         [Button.url("【﻿Ｃｈａｎｎｅｌ】",
-                                    "https://t.me/ProjectYanzzx")],
+                                    "https://t.me/Projectyanzzx")],
                     ],
                 )
 
@@ -564,7 +564,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @yanzzxsupport "
+                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @Yanzzxsupport "
                 await event.edit(
                     text,
                     file=roselogo,
@@ -600,7 +600,7 @@ with bot:
                     f"❁ __Saya Adalah Yanzzx Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 180 Modules__.\n\n"
-                    f"© @yanzzxsupport")
+                    f"© @Yanzzxsupport")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -676,7 +676,7 @@ with bot:
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
                     f"× `.set var YANZZX_TEKS_KUSTOM` [**TEKS**]\n"
                     f"°__Mengganti Teks Yang Ada Command yanzzxalive__.\n\n"
-                    f"© @yanzzxsupport"
+                    f"© @Yanzzxsupport"
                 )
                 await event.edit(
                     text,
@@ -706,7 +706,7 @@ with bot:
                     f"°__Mengaktifkan Pmpermit Kalian Atau Disebut Pesan Otomatis__.\n\n"
                     f"× `.set pm_msg` [**REPLYCHAT**]\n"
                     f"°__Mengganti Teks Pmpermit Selera Kamu__.\n\n"
-                    f"© @yanzzxsupport")
+                    f"© @Yanzzxsupport")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -735,7 +735,7 @@ with bot:
                     f"°__Mengubah Emoji Inline Yang Ada Dicomand__ `.helpme`\n\n"
                     f"× `.set var INLINE_PIC` [**LINK**]\n"
                     f"°__Mengubah Foto Yang Ada Dicomand__ `.helpme`\n\n"
-                    f"© @yanzzxsupport")
+                    f"© @Yanzzxsupport")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -762,7 +762,7 @@ with bot:
                     f"Modules Name **pmbot**\n\n"
                     f"× `.set var START_WELCOME` [**TEKS**] \n"
                     f"°__Kamu Juga Bisa Mengubah Start Welcome Untuk Bot Kamu Yang Ini, Dengan Cara Diatas Dan Kata Kata Bebas__.\n\n"
-                    f"© @yanzzxsupport")
+                    f"© @Yanzzxsupport")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -791,7 +791,7 @@ with bot:
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @yanzzxsupport")
+                    f"© @Yanzzxsupport")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -853,7 +853,7 @@ with bot:
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
                     f"✥ **Sisa Dyno Heroku** `{day}` **Hari Lagi**"
-                    f"© @yanzzxsupport"
+                    f"© @Yanzzxsupport"
                 )
                 await event.edit(
                     text,
@@ -897,7 +897,7 @@ with bot:
                     file=roselogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url("ᴄʜᴀɴɴᴇʟ", "t.me/ProjectYanzzx")],
+                        [Button.url("ᴄʜᴀɴɴᴇʟ", "t.me/Projectyanzzx")],
                     ],
                 )
 
@@ -911,7 +911,7 @@ with bot:
                 result = builder.photo(
                     file=roselogo,
                     link_preview=False,
-                    text=f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @yanzzxsupport".format(
+                    text=f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @Yanzzxsupport".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -934,7 +934,7 @@ with bot:
                                 "https://github.com/destraadryann/Yanzzx-userbot"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​",
-                                "t.me/ProjectYanzzx"),
+                                "t.me/Projectyanzzx"),
                         ],
                         [
                             custom.Button.url(
@@ -978,8 +978,8 @@ with bot:
                     link_preview=True,
                     buttons=[
                         [
-                            Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/yanzzxsupport"),
-                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/ProjectYanzzx"),
+                            Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/Yanzzxsupport"),
+                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/Projectyanzzx"),
                         ],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
