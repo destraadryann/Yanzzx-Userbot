@@ -4,6 +4,7 @@ import logging
 import os
 import re
 import time
+import pybase64
 from datetime import datetime
 from distutils.util import strtobool as sb
 from logging import DEBUG, INFO, basicConfig, getLogger
