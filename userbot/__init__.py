@@ -355,7 +355,7 @@ with bot:
     except BaseException:
         LOGS.info(
             "Join Support Group QHlhbnp6eHN1cHBvcnQ and Channel QFByb2plY3R5YW56eng to see the updates of Userbot"
-            "Don't Leave")
+            " Don't Leave")
         quit(1)
 
 
