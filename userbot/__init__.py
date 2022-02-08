@@ -336,7 +336,7 @@ except Exception as e:
     sys.exit()
 
 async def checking():
-    gocheck = pybase64.b64decode("QHlhbnp6eHN1cHBvcnQ=")
+    gocheck = pybase64.b64decode("QFlhbnp6eHN1cHBvcnQ=")
     checker = pybase64.b64decode("QFByb2plY3R5YW56eng=")
     Input_gocheck = gocheck.decode('utf-8')
     Input_checker = checker.decode('utf-8')
@@ -354,7 +354,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @yanzzxsupport and Channel @Projectyanzzx to see the updates of Userbot"
+            "Join Support Group @Yanzzxsupport and Channel @Projectyanzzx to see the updates of Userbot"
             "Don't Leave")
         quit(1)
 
