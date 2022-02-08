@@ -203,7 +203,7 @@ BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 TERM_ALIAS = os.environ.get("TERM_ALIAS", "Geez-UserBot")
 
 # Bot Version
-BOT_VER = os.environ.get("BOT_VER", "5.0")
+BOT_VER = os.environ.get("BOT_VER", "7.0")
 
 # Default .alive Username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -351,7 +351,7 @@ async def checking():
 
 with bot:
     try:
-        bot.loop.run_until_complete((checking))
+        bot.loop.run_until_complete(checking))
     except BaseException:
         LOGS.info(
             "Join Support Group @yanzzxsupport and Channel @ProjectYanzzx to see the updates of Userbot"
@@ -397,7 +397,7 @@ with bot:
 async def check_alive():
     await bot.send_message(
         BOTLOG_CHATID,
-        "**𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 Berhasil Diaktifkan⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭`\n❃ **BotVer :** `5.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @yanzzxsupport\n━━━━━━━━━━━━━━━")
+        "**𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 Berhasil Diaktifkan⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭`\n❃ **BotVer :** `7.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @yanzzxsupport\n━━━━━━━━━━━━━━━")
     return
 
 
@@ -563,7 +563,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @yanzzxsupport "
+                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @yanzzxsupport "
                 await event.edit(
                     text,
                     file=roselogo,
@@ -609,7 +609,7 @@ with bot:
                     ],
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 5.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Yanzzx-Userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Yanzzx-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @ tgbot.on(
@@ -910,7 +910,7 @@ with bot:
                 result = builder.photo(
                     file=roselogo,
                     link_preview=False,
-                    text=f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @yanzzxsupport".format(
+                    text=f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @yanzzxsupport".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
