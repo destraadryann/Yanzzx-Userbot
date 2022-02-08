@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ Skyzuu-Userbot ]
+    branches: [ Yanzzx-Userbot ]
   pull_request:
-    branches: [ Skyzuu-Userbot ]
+    branches: [ Yanzzx-Userbot ]
 
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-[![Python package](https://github.com/destraadryann/Yanzzx-userbot/actions/workflows/python-package.yml/badge.svg?branch=skyzu-userbot&event=workflow_dispatch)](https://github.com/destraadryann/Yanzzx-userbot/actions/workflows/python-package.yml)
+[![Python package](https://github.com/destraadryann/Yanzzx-userbot/actions/workflows/python-package.yml/badge.svg?branch=Yanzzx-Userbot&event=workflow_dispatch)](https://github.com/destraadryann/Yanzzx-userbot/actions/workflows/python-package.yml)
