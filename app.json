@@ -11,7 +11,7 @@
 ],
   "repository": "https://github.com/destraadryann/Yanzzx-userbot",
   "telegram": "https://t.me/yann4kalem",
-  "success_url": "https://t.me/yanzzxsupport",
+  "success_url": "https://t.me/Yanzzxsupport",
   "stack": "container",
   "env": {
     "API_KEY": {
