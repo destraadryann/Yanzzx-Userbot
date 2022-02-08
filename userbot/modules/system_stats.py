@@ -242,7 +242,7 @@ async def amireallyalive(alive):
         f"➥ **Bot Ver**  : `{BOT_VER}` \n"
         f"➥ **Modules**  : `{len(modules)}` \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/yanzzxsupport) | [ʙᴏᴛᴏꜰ](https://t.me/{user.username}) | [ɢɪᴛʜᴜʙ](https://github.com/destraadryann/Yanzzx-userbot)"
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/Yanzzxsupport) | [ʙᴏᴛᴏꜰ](https://t.me/{user.username}) | [ɢɪᴛʜᴜʙ](https://github.com/destraadryann/Yanzzx-userbot)"
     )
     if ALIVE_LOGO:
         try:
@@ -270,7 +270,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ :`[Yanzzx](t.me/Yanzzx)             ㅤ \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ :`[Yanzzx](t.me/yann4kalem)             ㅤ \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ. :`Ubuntu 20.10            \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__}                ㅤㅤ  \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ. :`v.{python_version()} ㅤㅤ\n"
@@ -312,18 +312,18 @@ async def redis(alive):
     await alive.edit("⚡")
     await asyncio.sleep(2)
     output = (
-        f"╭✠╼━━━━━━━━━━━━━━━━✠╮\n"
-        f"┃✧ **Name     :** {DEFAULTUSER} \n"
-        f"┃✧ **Username :** @{user.username} \n"
-        f"┃✧ **Telethon :** Ver {version.__version__} \n"
-        f"┃✧ **Python   :** Ver {python_version()} \n"
-        f"┃✧ **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
-        f"┃✧ **Bot Ver  :** {BOT_VER} \n"
-        f"┃✧ **Modules  :** {len(modules)} Modules \n"
-        f"┃✧ **GitHub   :** [UserBot](https://github.com/destraadryann/Yanzzx-userbot) \n"
-        f"┃✧ **Owner    :** [𝐘𝐚𝐧𝐳𝐳𝐱](https://t.me/yann4kalem) \n"
-        f"┃✧ **support  :** [groups](https://t.me/yanzzxsupport) \n"
-        f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
+        f"┏━━━━⚡𝐘𝐚𝐧𝐳𝐳𝐱-𝐔𝐬𝐞𝐫𝐛𝐨𝐭⚡━━━━ \n"
+        f"┣  `Name     :` {DEFAULTUSER} \n"
+        f"┣  `Username :` @{user.username} \n"
+        f"┣  `Telethon :` Ver {version.__version__} \n"
+        f"┣  `Python   :` Ver {python_version()} \n"
+        f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"┣  `Bot Ver  :` {BOT_VER} \n"
+        f"┣  `Modules  :` {len(modules)} Modules \n"
+        f"┣  `GitHub   :` [𝐔𝐬𝐞𝐫𝐛𝐨𝐭](https://github.com/destraadryann/Yanzzx-userbot) \n"
+        f"┣  `Support  :` [𝐆𝐫𝐨𝐮𝐩𝐬](https://t.me/Yanzzxsupport) \n"
+        f"┣  `Owner    :` [𝐘𝐚𝐧𝐳𝐳𝐱](https://t.me/yann4kalem) \n"
+        f"┗━━━━━━━━━━━━━━━━━━━")
     )
     if ALIVE_LOGO:
         try:
